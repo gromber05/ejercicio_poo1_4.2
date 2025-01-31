@@ -14,10 +14,6 @@ class Persona(var peso: Double, var altura: Double) {
         return "Nombre: $nombre, Peso: $peso kg, Altura: $altura metros, IMC: $imc"
     }
 
-    override fun equals(other: Any?): Boolean {
-        return super.equals(other)
-    }
-
 }
 
 fun main () {
